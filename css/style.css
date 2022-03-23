@@ -1,0 +1,44 @@
+/*---------- 
+    Reset
+------------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----------
+    Debug Zone
+------------*/
+.debug nav{
+    min-height: 80px;
+    background-color: blue;
+}
+
+.debug .container{
+    min-height: 100px;
+    background-color: red;
+}
+
+.debug .jumbo{
+    min-height: 500px;
+    background-color: green;
+}
+
+.debug .container.jumbo-text{
+    min-height: 500px;
+    background-color: violet;
+}
+/*----------
+    Debug Zone
+------------*/
+
+/*----------
+    Common
+------------*/
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
