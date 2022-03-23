@@ -114,6 +114,7 @@ nav{
 }
 
 .container.jumbo-text{
+    width: 30%;
     position: absolute;
     top:50%;
     left: 50%;
@@ -145,3 +146,13 @@ nav{
 i{
     margin: 5px;
 }
+
+
+/*----------
+    /Jumbo
+------------*/
+
+
+/*----------
+    Main
+------------*/
