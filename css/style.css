@@ -42,3 +42,65 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------
+    Nav-bar
+------------*/
+
+header{
+    background-color: #255EE8;
+}
+
+nav{
+    padding: 20px 0px;
+}
+
+.logo-elem,.login{
+    width: 20%;
+    float: left;
+}
+
+.main-nav{
+    padding-top: 10px;
+    width: 60%;
+    float: left;
+}
+
+.main-nav ul{
+    text-align: center;
+}
+
+.main-nav ul li{
+    display: inline-block;
+}
+
+.main-nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.login{
+    padding-right: 10px;
+    text-align: right;
+}
+
+.btn-small{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+
+/*----------
+    /Nav-bar
+------------*/
+
+/*----------
+    Jumbo
+------------*/
