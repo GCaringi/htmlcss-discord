@@ -168,21 +168,32 @@ section:nth-child(2n){
     background-color: #f6f6f6;
 }
 
-.col:first-child{
+.col:first-child, .col:last-child{
     float: left;
 }
 
-.col:last-child{
-    float: right;
-}
+
 
 .col{
-    width: 45%;
+    width: 50%;
 }
-/* 
+
 .col > img{
     width: 100%;
-    object-fit: contain;
-} */
+    object-fit: cover;
+}
 
+.text{
+    text-align:left;
+    width: 50%;
+}
 
+.container.last{
+    text-align: center;
+}
+
+.download > .btn{
+    margin-top: 20px;
+    color: white;
+    background-color: #8ea1e1;
+}
