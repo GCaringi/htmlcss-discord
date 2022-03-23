@@ -49,13 +49,15 @@
     clear: both;
 }
 
+header{
+    background-color: #255EE8;
+    margin-bottom: 100px;
+}
+
+
 /*----------
     Nav-bar
 ------------*/
-
-header{
-    background-color: #255EE8;
-}
 
 nav{
     padding: 20px 0px;
@@ -156,3 +158,24 @@ i{
 /*----------
     Main
 ------------*/
+
+.col-pic, .col-text{
+    float: left;
+}
+
+.col-pic{
+    width: 80%;
+}
+
+.col-text{
+    width: 20%;
+    text-align: left;
+}
+
+.col-text h1{
+    font-size:39px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+
