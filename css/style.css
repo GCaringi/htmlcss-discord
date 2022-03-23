@@ -58,11 +58,20 @@ header{
     margin-bottom: 100px;
 }
 
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
 h1{
     font-size: 50px;
     margin-bottom: 20px;
 }
 
+h4,h5{
+    color: #7289da;
+    margin-bottom: 10px;
+}
 
 p{
     font-size: 18px;
@@ -73,6 +82,14 @@ img{
     width: 100%;
 }
 
+ul{
+    font-size: 15px;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 15px;
+}
 /*----------
     Nav-bar
 ------------*/
@@ -86,7 +103,7 @@ nav{
     float: left;
 }
 
-.main-nav{
+.main-nav, .central-section{
     padding-top: 10px;
     width: 60%;
     float: left;
@@ -189,6 +206,10 @@ section:nth-child(2n){
     background-color: #f6f6f6;
 }
 
+section:last-child{
+    margin-bottom: 0px;
+}
+
 .col:first-child{
     float: left;
 }
@@ -235,3 +256,45 @@ section:nth-child(2n){
 /*----------
     Footer
 ------------*/
+
+.big-col, .foot-col{
+    float: left;
+}
+
+.big-col{
+    padding-top: 40px;
+    width: 25%;
+    padding-right: 10%;
+}
+
+.big-col > h4{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.big-col img{
+    width: 20px;
+}
+
+.foot-col{
+    padding-top: 48px;
+    width: calc(75% / 4);
+    
+}
+
+.symbol{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.symbol i{
+    margin-right: 20px;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+.lst-footer{
+    padding-bottom: 50px;
+}
